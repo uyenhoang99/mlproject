@@ -1,5 +1,6 @@
 import sys
 import os
+os.environ['LOKY_MAX_CPU_COUNT'] = '4'
 from dataclasses import dataclass
 
 import numpy as np
